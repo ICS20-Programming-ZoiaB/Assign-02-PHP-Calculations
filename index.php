@@ -33,11 +33,11 @@
     <?php echo "<h3>Please enter the following:</h3>" ?>
 
       <!-- User input -->
-      <form action="javascript:calculate()">
+        <form action="./results.php" method="post" target="results">
         <label for="test1">Test 1 Score %</label>
-        <input type="float" id="test1" placeholder="Test 1 Score..."><br><br>
+        <input type="number" id="test1" step="0.001" placeholder="Test 1 Score..."><br><br>
         <label for="test2">Test 2 Score %</label>
-        <input type="float" id="test2" placeholder="Test 2 Score..."><br><br>
+        <input type="number" id="test2" step="0.001" placeholder="Test 2 Score..."><br><br>
         <input type="submit" value="Enter">
       </form>
     </p>
@@ -46,10 +46,13 @@
     <img src = "./images/mathwriting.jpg" width="400" length="400">
       
     <!-- Create a space where the user information will be displayed -->
-    <div id="average">
+    <iframe id="average" name="range">
+      <div id="average">
+      </div>
+      <div id="range">
     </div>
-    <div id="range">
-    </div>
+    </iframe>
     </center>
   </body>
 </html>
+
