@@ -1,0 +1,37 @@
+/* Created by: ZoiaB
+* Created on: Mar 2022
+* This CSS file defines the style for index.html
+* ICS2O-Assign-02-HTML-Calculations
+*/
+
+body {
+  background-color: lightcoral;
+  font-size: 10pt;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color: black;
+  line-height: 14pt;
+  padding-left: 5pt;
+  padding-right: 5pt;
+  padding-top: 5pt;
+}
+
+h1 {
+  background-color: #FFA07A;
+  font: 16pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 20pt;
+  color: hsl(336deg 95% 23%);
+}
+
+h3 {
+  font: 12pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 16pt;
+  color: rgb(21 110 111);
+}
+
+div {
+  font-weight: bold;
+  color: hsl(336deg 95% 23%);
+  margin: 5px;
+}
