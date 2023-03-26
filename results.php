@@ -4,15 +4,13 @@
 	$test2 = floatval($_POST['test2']);
 
 	// calculations
-	$total = $test1+$test2;
-  $average = $total/2;
-  $range = $test1-$test2
-?>
-
-<?php
-    echo '<iframe id="average" name="range"></iframe>';
+	$total = $test1 + $test2;
+  $average = $total / 2;
+  $range = $test1 - $test2;
+  $roundedAverage = round($average, 2);
+  $roundedRange = (abs(round($range, 2)));
 ?>
 
 <h3>Results:</h3>
-Average is: <?php echo round("$average", 2) ?>%.
-Range is: <?php echo (abs(round("$range", 2))) ?>.
+Average is: <?php echo $roundedAverage ?>%.
+Range is: <?php echo $roundedRange ?>.

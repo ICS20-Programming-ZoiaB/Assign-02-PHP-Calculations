@@ -35,23 +35,18 @@
       <!-- User input -->
         <form action="./results.php" method="post" target="results">
         <label for="test1">Test 1 Score %</label>
-        <input type="number" id="test1" step="0.001" placeholder="Test 1 Score..."><br><br>
+        <input type="number" id="test1" name="test1" step="0.001" placeholder="Test 1 Score..."><br><br>
         <label for="test2">Test 2 Score %</label>
-        <input type="number" id="test2" step="0.001" placeholder="Test 2 Score..."><br><br>
+        <input type="number" id="test2" name="test2" step="0.001" placeholder="Test 2 Score..."><br><br>
         <input type="submit" value="Enter">
-      </form>
+        </form>
     </p>
 
     <!-- Image -->
     <img src = "./images/mathwriting.jpg" width="400" length="400">
       
     <!-- Create a space where the user information will be displayed -->
-    <iframe id="average" name="range">
-      <div id="average">
-      </div>
-      <div id="range">
-    </div>
-    </iframe>
+    <iframe id="results" name="results"></iframe>
 
       <!-- Small text -->
       <p>Here are some school supplies you may want to bring to class:</p>
@@ -77,4 +72,3 @@
     </center>
   </body>
 </html>
-
