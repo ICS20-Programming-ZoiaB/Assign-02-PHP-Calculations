@@ -10,10 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/android-chrome-512x512.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/android-chrome-512x512.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/android-chrome-512x512.png">
-    <link rel="manifest" href="./fav_index/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/1android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./1fav_index/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./1fav_index/android-chrome-512x512.png">
+    <link rel="manifest" href="./1fav_index/android-chrome-512x512.png">
 
     <!-- Stylesheet and MDL theme-->
     <link rel="stylesheet" href="./css/style.css">
@@ -52,6 +52,28 @@
       <div id="range">
     </div>
     </iframe>
+
+      <!-- Small text -->
+      <p>Here are some school supplies you may want to bring to class:</p>
+      
+    <!-- Google's MDL Simple List -->
+    <ul class="demo-list-item mdl-list">
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          Laptop
+        </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          Pencils
+        </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          Paper
+        </span>
+      </li>
+    </ul>
     </center>
   </body>
 </html>

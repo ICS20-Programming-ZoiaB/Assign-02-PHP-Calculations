@@ -30,6 +30,10 @@ h3 {
   color: rgb(21 110 111);
 }
 
+ul {
+      width: 75px;
+    }
+
 div {
   font-weight: bold;
   color: hsl(336deg 95% 23%);

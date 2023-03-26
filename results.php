@@ -9,6 +9,10 @@
   $range = $test1-$test2
 ?>
 
+<?php
+    echo '<iframe id="average" name="range"></iframe>';
+?>
+
 <h3>Results:</h3>
 Average is: <?php echo round("$average", 2) ?>%.
 Range is: <?php echo (abs(round("$range", 2))) ?>.
