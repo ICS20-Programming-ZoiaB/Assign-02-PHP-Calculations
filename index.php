@@ -43,7 +43,7 @@
     </p>
 
     <!-- Image -->
-    <img src = "./images/mathwriting.jpg" width="400" length="400">
+    <img src = "./images/mathwriting.jpg" width="400" length="400" alt="Math Writing Image">
       
     <!-- Create a space where the user information will be displayed -->
     <iframe id="results" name="results"></iframe>
