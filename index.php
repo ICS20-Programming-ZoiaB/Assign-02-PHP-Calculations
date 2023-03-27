@@ -10,10 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/1android-chrome-512x512.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./1fav_index/android-chrome-512x512.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./1fav_index/android-chrome-512x512.png">
-    <link rel="manifest" href="./1fav_index/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_index/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_index/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_index/android-chrome-512x512.png">
+    <link rel="manifest" href="./favicon_index/android-chrome-512x512.png">
 
     <!-- Stylesheet and MDL theme-->
     <link rel="stylesheet" href="./css/style.css">
@@ -30,7 +30,7 @@
     <center>
     <?php echo "<h1>Calculate Your Average and Range, with PHP</h1>" ?>
     <?php echo "<p>" ?>
-    <?php echo "<h3>Please enter the following:</h3>" ?>
+    <?php echo "<h3>Would you like to find out the average and range of your 2 test scores? If so, please enter the following:</h3>" ?>
 
       <!-- User input -->
         <form action="./results.php" method="post" target="results">
