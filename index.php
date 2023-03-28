@@ -48,7 +48,12 @@
     <!-- Space where the user information will be displayed -->
     <iframe id="results" name="results"></iframe>
 
-      <!-- Small text -->
+    <!-- Google's MDL Slider with Starting Value -->
+    <p>How motivated are you to improve your grade?</p>
+    <input class="mdl-slider mdl-js-slider" type="range"
+  min="0" max="100" value="25" tabindex="0">
+
+    <!-- Small text -->
       <p>Here are some school supplies you may want to bring to class:</p>
       
     <!-- Google's MDL Simple List -->
