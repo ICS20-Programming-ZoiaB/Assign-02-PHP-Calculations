@@ -12,5 +12,5 @@
 ?>
 
 <h3>Results:</h3>
-Average is: <?php echo $roundedAverage ?>%.
-Range is: <?php echo $roundedRange ?>.
+Average is <?php echo $roundedAverage ?>%.
+Range is <?php echo $roundedRange ?>.

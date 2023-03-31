@@ -26,11 +26,11 @@
     <!-- Link to JavaScript -->
     <script src="./js/script.js"></script>
     
-    <!-- Main components -->
+    <!-- Main content -->
     <center>
     <?php echo "<h1>Calculate Your Average and Range, with PHP</h1>" ?>
     <?php echo "<p>" ?>
-    <?php echo "<h3>Would you like to find out the average and range of your 2 test scores? If so, please enter the following:</h3>" ?>
+    <?php echo "<h3>It can be difficult to keep track of grades, but this web page can help you do it! Average represents a central value in data that is calculated by adding the values and dividing by the number of values. Range is the the difference between the highest and lowest values in a set of data and is caluculated by subtracting the smallest value from the largest one. Do you want to know the average and range of your grades? Please enter the following:</h3>" ?>
 
       <!-- User input -->
         <form action="./results.php" method="post" target="results">
